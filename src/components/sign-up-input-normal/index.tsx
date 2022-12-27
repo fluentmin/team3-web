@@ -1,4 +1,5 @@
 import { ChangeEventHandler } from 'react';
+import { COLOR_CARROT } from '../../constant';
 import ButtonNormal from '../button-normal/index';
 import { Input } from '../input-normal/input-normal.styled';
 import {
@@ -71,7 +72,7 @@ const SignUpInputNormal: React.FC<SignUpInputNormal> = ({
             <SignUpInputRight>
               <SignUpButtonNormal
                 text="중복확인"
-                bgColor="#FF6F0F"
+                bgColor={COLOR_CARROT}
                 handleClick={handleClick}
               />
             </SignUpInputRight>
